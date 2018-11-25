@@ -25,5 +25,10 @@
 
 .btn a{
 	text-decoration: none;
-	color: #f2f2f2;
+	color: #333;
+}
+
+.btn > a:hover{
+	text-decoration: none;
+	color: #333;
 }
