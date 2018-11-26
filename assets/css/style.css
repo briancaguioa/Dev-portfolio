@@ -6,6 +6,8 @@
 }
 
 #port-jumbo{
+	background-image: url(../images/devport.jpg);
+	background-size: cover;
 	border: 8px solid #007bff;
 	border-radius: 10px;
 	width: 60%;
@@ -15,7 +17,7 @@
 #jumbo-div{
 	padding-top: 10%;
 	height: 100vh;
-	background-color: #333; /*off black*/
+	background-color: gray; /*off black*/
 	border-radius: 0;
 }
 
@@ -31,4 +33,9 @@
 .btn > a:hover{
 	text-decoration: none;
 	color: #333;
+}
+
+
+#port > img{
+	height: 300px;
 }
